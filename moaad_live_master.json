@@ -168,6 +168,58 @@
         "type": "auto",
         "enabled": true
       }
+    ],
+    "matchServers": [
+      {
+        "matchId": 1,
+        "servers": [
+          {
+            "name": "Server 1",
+            "url": "",
+            "type": "auto",
+            "enabled": true
+          },
+          {
+            "name": "Server 2",
+            "url": "",
+            "type": "auto",
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "matchId": 2,
+        "servers": [
+          {
+            "name": "Server 1",
+            "url": "",
+            "type": "auto",
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "matchId": 3,
+        "servers": [
+          {
+            "name": "Server 1",
+            "url": "",
+            "type": "auto",
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "matchId": 4,
+        "servers": [
+          {
+            "name": "Server 1",
+            "url": "",
+            "type": "auto",
+            "enabled": true
+          }
+        ]
+      }
     ]
   },
   "social": {
