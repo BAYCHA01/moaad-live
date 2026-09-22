@@ -152,7 +152,7 @@
     "servers": [
       {
         "name": "Server 1",
-        "url": "https://videotourl.com/videos/1790083797911-9b1557b2-7321-4ca6-b709-cd1368d6d76a.mp4",
+        "url": "",
         "type": "auto",
         "enabled": true
       },
@@ -175,7 +175,7 @@
         "servers": [
           {
             "name": "Server 1",
-            "url": "",
+            "url": "https://videotourl.com/videos/1790083797911-9b1557b2-7321-4ca6-b709-cd1368d6d76a.mp4",
             "type": "auto",
             "enabled": true
           },
@@ -192,7 +192,7 @@
         "servers": [
           {
             "name": "Server 1",
-            "url": "",
+            "url": "https://videotourl.com/videos/1790083797911-9b1557b2-7321-4ca6-b709-cd1368d6d76a.mp4",
             "type": "auto",
             "enabled": true
           }
