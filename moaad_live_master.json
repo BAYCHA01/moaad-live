@@ -152,7 +152,7 @@
     "servers": [
       {
         "name": "Server 1",
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=4aBxNH6ODc8&list=RDLF13_TQUxLU&index=4",
         "type": "auto",
         "enabled": true
       },
