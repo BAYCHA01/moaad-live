@@ -329,6 +329,14 @@
     "baseUrl": "https://moaad-football-api.moaad.workers.dev",
     "timezone": "Africa/Casablanca",
     "refreshMinutes": 5,
-    "season": 2026
+    "season": 2026,
+    "priorityLeagueIds": [
+      39,
+      140,
+      135,
+      78,
+      61
+    ],
+    "showTeamLogos": true
   }
 }
