@@ -1,5 +1,5 @@
 {
-  "configVersion": 1,
+  "configVersion": 2,
   "app": {
     "name": "Moaad Live",
     "tagline": "Football. Closer Than Ever.",
@@ -15,7 +15,7 @@
     "home": true,
     "leagues": true,
     "news": true,
-    "favorites": true,
+    "favorites": false,
     "settings": true,
     "search": true,
     "notifications": true,
@@ -114,6 +114,13 @@
         "apiId": 135
       },
       {
+        "name": "Ligue 1",
+        "country": "France",
+        "emoji": "🇫🇷",
+        "enabled": true,
+        "apiId": 61
+      },
+      {
         "name": "Bundesliga",
         "country": "Germany",
         "emoji": "🇩🇪",
@@ -121,11 +128,11 @@
         "apiId": 78
       },
       {
-        "name": "Ligue 1",
-        "country": "France",
-        "emoji": "🇫🇷",
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "emoji": "🇳🇱",
         "enabled": true,
-        "apiId": 61
+        "apiId": 88
       },
       {
         "name": "Saudi Pro League",
@@ -135,22 +142,50 @@
         "apiId": 307
       },
       {
+        "name": "Botola Pro",
+        "country": "Morocco",
+        "emoji": "🇲🇦",
+        "enabled": true,
+        "apiId": 200
+      },
+      {
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "emoji": "🏆",
+        "enabled": true,
+        "apiId": 3
+      },
+      {
+        "name": "UEFA Conference League",
+        "country": "Europe",
+        "emoji": "🏆",
+        "enabled": true,
+        "apiId": 848
+      },
+      {
         "name": "CAF Champions League",
         "country": "Africa",
         "emoji": "🌍",
         "enabled": true,
         "apiId": 12
+      },
+      {
+        "name": "CAF Confederation Cup",
+        "country": "Africa",
+        "emoji": "🌍",
+        "enabled": true,
+        "apiId": 20
       }
     ]
   },
   "news": {
     "enabled": true,
-    "query": "كرة القدم",
+    "query": "كرة القدم OR دوري أبطال أوروبا OR الدوري الإنجليزي OR الدوري الإسباني OR الدوري السعودي OR الدوري المغربي",
     "hl": "ar",
     "gl": "MA",
     "ceid": "MA:ar",
     "title": "أخبار كرة القدم",
-    "subtitle": "آخر الأخبار من Google News",
+    "subtitle": "آخر الأخبار الرياضية مع الصور والمقال داخل التطبيق",
     "openOriginal": true
   },
   "player": {
@@ -162,73 +197,30 @@
         "name": "Server 1",
         "url": "",
         "type": "auto",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "Server 2",
         "url": "",
         "type": "auto",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "Server 3",
         "url": "",
         "type": "auto",
-        "enabled": true
+        "enabled": false
       }
     ],
-    "matchServers": [
-      {
-        "matchId": 1,
-        "servers": [
-          {
-            "name": "Server 1",
-            "url": "",
-            "type": "auto",
-            "enabled": true
-          },
-          {
-            "name": "Server 2",
-            "url": "",
-            "type": "auto",
-            "enabled": true
-          }
-        ]
-      },
-      {
-        "matchId": 2,
-        "servers": [
-          {
-            "name": "Server 1",
-            "url": "",
-            "type": "auto",
-            "enabled": true
-          }
-        ]
-      },
-      {
-        "matchId": 3,
-        "servers": [
-          {
-            "name": "Server 1",
-            "url": "",
-            "type": "auto",
-            "enabled": true
-          }
-        ]
-      },
-      {
-        "matchId": 4,
-        "servers": [
-          {
-            "name": "Server 1",
-            "url": "",
-            "type": "auto",
-            "enabled": true
-          }
-        ]
-      }
-    ]
+    "matchServers": [],
+    "mode": "internal",
+    "externalPackage": "com.moaad.player",
+    "rateBannerImage": "",
+    "rateUrl": "https://play.google.com/store/apps/details?id=com.moaad.live",
+    "showServerSelector": true,
+    "brightnessGesture": true,
+    "volumeGesture": true,
+    "resizeModes": true
   },
   "social": {
     "telegramEnabled": false,
@@ -331,12 +323,63 @@
     "refreshMinutes": 5,
     "season": 2026,
     "priorityLeagueIds": [
+      2,
       39,
       140,
       135,
+      61,
       78,
-      61
+      88,
+      307,
+      200,
+      3,
+      848,
+      12,
+      20,
+      1,
+      4,
+      9,
+      6
     ],
-    "showTeamLogos": true
+    "showTeamLogos": true,
+    "priorityTeamNames": [
+      "Real Madrid",
+      "Barcelona",
+      "Atletico Madrid",
+      "Manchester City",
+      "Liverpool",
+      "Arsenal",
+      "Manchester United",
+      "Chelsea",
+      "Tottenham",
+      "Bayern Munich",
+      "Borussia Dortmund",
+      "Paris Saint Germain",
+      "Inter",
+      "AC Milan",
+      "Juventus",
+      "Napoli",
+      "Ajax",
+      "PSV Eindhoven",
+      "Benfica",
+      "FC Porto",
+      "Al Hilal",
+      "Al Nassr",
+      "Al Ittihad",
+      "Al Ahli",
+      "Wydad AC",
+      "Raja Casablanca",
+      "FAR Rabat",
+      "Morocco",
+      "Argentina",
+      "Brazil",
+      "France",
+      "Spain",
+      "Portugal",
+      "England",
+      "Germany",
+      "Netherlands",
+      "Italy"
+    ]
   }
 }
