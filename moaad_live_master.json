@@ -195,21 +195,21 @@
     "servers": [
       {
         "name": "Server 1",
-        "url": "",
-        "type": "auto",
-        "enabled": false
+        "url": "https://raw.githubusercontent.com/ringy9/AymaneTV/refs/heads/main/beim.mp4",
+        "type": "mp4",
+        "enabled": true
       },
       {
         "name": "Server 2",
-        "url": "",
-        "type": "auto",
-        "enabled": false
+        "url": "https://raw.githubusercontent.com/ringy9/AymaneTV/refs/heads/main/beim.mp4",
+        "type": "mp4",
+        "enabled": true
       },
       {
         "name": "Server 3",
-        "url": "",
-        "type": "auto",
-        "enabled": false
+        "url": "https://raw.githubusercontent.com/ringy9/AymaneTV/refs/heads/main/beim.mp4",
+        "type": "mp4",
+        "enabled": true
       }
     ],
     "matchServers": [],
