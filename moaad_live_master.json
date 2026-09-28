@@ -198,8 +198,7 @@
     "openOriginal": false,
     "maxArticles": 24,
     "refreshMinutes": 15,
-    "showOnlyWithImages": true,
-    "proxyBaseUrl": "https://moaad-football-api.moaad.workers.dev"
+    "showOnlyWithImages": true
   },
   "player": {
     "enabled": true,
@@ -421,12 +420,20 @@
     "whatsNew": true,
     "whatsNewTitle": "What's new in Moaad Live",
     "whatsNewItems": [
-      "My Teams & personalized Home",
-      "Match reminders before kickoff",
+      "Pinned Match on Home",
+      "Top scorers in League Hub",
+      "Live events timeline",
+      "Lineups & formations",
+      "Head-to-head history",
+      "Server health indicator",
       "Mini player & Continue Watching",
-      "League hubs with top scorers",
-      "Shareable match cards",
-      "Goal flash & dynamic Match Center backgrounds"
-    ]
+      "Shareable match cards"
+    ],
+    "topScorers": true,
+    "lineups": true,
+    "eventsTimeline": true,
+    "headToHead": true,
+    "pinnedMatch": true,
+    "serverHealth": true
   }
 }
