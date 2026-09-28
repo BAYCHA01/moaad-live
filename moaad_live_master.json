@@ -189,17 +189,16 @@
   },
   "news": {
     "enabled": true,
-    "query": "كرة القدم",
+    "query": "كرة القدم OR دوري أبطال أوروبا OR الدوري الإنجليزي OR الدوري الإسباني OR الدوري السعودي OR الدوري المغربي",
     "hl": "ar",
     "gl": "MA",
     "ceid": "MA:ar",
     "title": "أخبار كرة القدم",
-    "subtitle": "آخر أخبار كرة القدم داخل التطبيق",
+    "subtitle": "أخبار حقيقية من Google News RSS مع صور المقالات",
     "openOriginal": false,
-    "maxArticles": 18,
+    "maxArticles": 24,
     "refreshMinutes": 15,
-    "showOnlyWithImages": false,
-    "proxyBaseUrl": "https://moaad-football-api.moaad.workers.dev"
+    "showOnlyWithImages": true
   },
   "player": {
     "enabled": true,
