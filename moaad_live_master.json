@@ -1,5 +1,5 @@
 {
-  "configVersion": 3,
+  "configVersion": 4,
   "app": {
     "name": "Moaad Live",
     "tagline": "Football. Closer Than Ever.",
@@ -8,7 +8,7 @@
     "maintenanceMessage": "We are improving Moaad Live. Please try again soon.",
     "forceUpdate": false,
     "minVersionCode": 1,
-    "latestVersionName": "1.0",
+    "latestVersionName": "2.0",
     "updateUrl": "https://play.google.com/store/apps/details?id=com.moaad.live"
   },
   "features": {
@@ -19,7 +19,11 @@
     "settings": true,
     "search": true,
     "notifications": true,
-    "player": true
+    "player": true,
+    "teamPages": true,
+    "h2h": true,
+    "lineups": true,
+    "diagnostics": true
   },
   "popup": {
     "enabled": false,
@@ -36,7 +40,7 @@
     "todayLabel": "Today",
     "tomorrowLabel": "Tomorrow",
     "liveTitle": "Live Now",
-    "otherTitle": "Other Matches",
+    "otherTitle": "All Matches",
     "matches": [
       {
         "id": 1,
@@ -79,7 +83,12 @@
         "awayScore": 1,
         "dayOffset": -1
       }
-    ]
+    ],
+    "topMatchesEnabled": true,
+    "topMatchesTitle": "Top Matches",
+    "topMatchesLimit": 5,
+    "pullToRefresh": true,
+    "skeletonLoading": true
   },
   "leagues": {
     "title": "Leagues",
@@ -186,7 +195,9 @@
     "ceid": "MA:ar",
     "title": "أخبار كرة القدم",
     "subtitle": "آخر الأخبار الرياضية مع الصور والمقال داخل التطبيق",
-    "openOriginal": true
+    "openOriginal": true,
+    "maxArticles": 30,
+    "refreshMinutes": 15
   },
   "player": {
     "enabled": true,
@@ -232,10 +243,13 @@
     "forceTheme": "user",
     "forceLanguage": "user",
     "primaryColor": "#F21F32",
-    "splashDurationMs": 3200
+    "splashDurationMs": 3200,
+    "ratePromptEnabled": true,
+    "ratePromptAfterLaunches": 5,
+    "animationsEnabled": true
   },
   "favorites": {
-    "title": "Favorites",
+    "title": "Favorite Teams",
     "teams": [
       {
         "id": "real_madrid",
@@ -381,5 +395,13 @@
       "Netherlands",
       "Italy"
     ]
+  },
+  "notifications": {
+    "enabled": true,
+    "oneSignalAppId": "",
+    "goals": true,
+    "kickoff": true,
+    "halftime": true,
+    "fulltime": true
   }
 }
