@@ -411,8 +411,6 @@
     "matchReminders": true,
     "reminderMinutesBefore": 15,
     "liveRibbon": true,
-    "dailyBrief": true,
-    "trending": true,
     "continueWatching": true,
     "miniPlayer": true,
     "shareMatchCard": true,
@@ -423,7 +421,6 @@
     "whatsNewItems": [
       "My Teams & personalized Home",
       "Match reminders before kickoff",
-      "Live ribbon, Daily Brief & Trending Now",
       "Mini player & Continue Watching",
       "League hubs with top scorers",
       "Shareable match cards",
