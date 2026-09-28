@@ -189,15 +189,17 @@
   },
   "news": {
     "enabled": true,
-    "query": "كرة القدم OR دوري أبطال أوروبا OR الدوري الإنجليزي OR الدوري الإسباني OR الدوري السعودي OR الدوري المغربي",
+    "query": "كرة القدم",
     "hl": "ar",
     "gl": "MA",
     "ceid": "MA:ar",
     "title": "أخبار كرة القدم",
-    "subtitle": "آخر الأخبار الرياضية مع الصور والمقال داخل التطبيق",
-    "openOriginal": true,
-    "maxArticles": 30,
-    "refreshMinutes": 15
+    "subtitle": "آخر أخبار كرة القدم داخل التطبيق",
+    "openOriginal": false,
+    "maxArticles": 18,
+    "refreshMinutes": 15,
+    "showOnlyWithImages": false,
+    "proxyBaseUrl": "https://moaad-football-api.moaad.workers.dev"
   },
   "player": {
     "enabled": true,
@@ -406,7 +408,7 @@
   },
   "engagement": {
     "enabled": true,
-    "onboarding": true,
+    "onboarding": false,
     "myTeams": true,
     "matchReminders": true,
     "reminderMinutesBefore": 15,
@@ -419,12 +421,20 @@
     "whatsNew": true,
     "whatsNewTitle": "What's new in Moaad Live",
     "whatsNewItems": [
-      "My Teams & personalized Home",
-      "Match reminders before kickoff",
+      "Pinned Match on Home",
+      "Top scorers in League Hub",
+      "Live events timeline",
+      "Lineups & formations",
+      "Head-to-head history",
+      "Server health indicator",
       "Mini player & Continue Watching",
-      "League hubs with top scorers",
-      "Shareable match cards",
-      "Goal flash & dynamic Match Center backgrounds"
-    ]
+      "Shareable match cards"
+    ],
+    "topScorers": true,
+    "lineups": true,
+    "eventsTimeline": true,
+    "headToHead": true,
+    "pinnedMatch": true,
+    "serverHealth": true
   }
 }
