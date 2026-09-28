@@ -1,5 +1,5 @@
 {
-  "configVersion": 4,
+  "configVersion": 5,
   "app": {
     "name": "Moaad Live",
     "tagline": "Football. Closer Than Ever.",
@@ -8,7 +8,7 @@
     "maintenanceMessage": "We are improving Moaad Live. Please try again soon.",
     "forceUpdate": false,
     "minVersionCode": 1,
-    "latestVersionName": "2.0",
+    "latestVersionName": "3.0",
     "updateUrl": "https://play.google.com/store/apps/details?id=com.moaad.live"
   },
   "features": {
@@ -403,5 +403,31 @@
     "kickoff": true,
     "halftime": true,
     "fulltime": true
+  },
+  "engagement": {
+    "enabled": true,
+    "onboarding": true,
+    "myTeams": true,
+    "matchReminders": true,
+    "reminderMinutesBefore": 15,
+    "liveRibbon": true,
+    "dailyBrief": true,
+    "trending": true,
+    "continueWatching": true,
+    "miniPlayer": true,
+    "shareMatchCard": true,
+    "goalFlash": true,
+    "dynamicMatchBackground": true,
+    "whatsNew": true,
+    "whatsNewTitle": "What's new in Moaad Live",
+    "whatsNewItems": [
+      "My Teams & personalized Home",
+      "Match reminders before kickoff",
+      "Live ribbon, Daily Brief & Trending Now",
+      "Mini player & Continue Watching",
+      "League hubs with top scorers",
+      "Shareable match cards",
+      "Goal flash & dynamic Match Center backgrounds"
+    ]
   }
 }
