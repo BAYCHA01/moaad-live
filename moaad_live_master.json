@@ -198,7 +198,8 @@
     "openOriginal": false,
     "maxArticles": 24,
     "refreshMinutes": 15,
-    "showOnlyWithImages": true
+    "showOnlyWithImages": true,
+    "proxyBaseUrl": "https://moaad-football-api.moaad.workers.dev"
   },
   "player": {
     "enabled": true,
