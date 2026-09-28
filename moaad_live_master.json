@@ -194,11 +194,10 @@
     "gl": "MA",
     "ceid": "MA:ar",
     "title": "أخبار كرة القدم",
-    "subtitle": "أخبار حقيقية من Google News RSS مع صور المقالات",
-    "openOriginal": false,
-    "maxArticles": 24,
-    "refreshMinutes": 15,
-    "showOnlyWithImages": true
+    "subtitle": "آخر الأخبار الرياضية مع الصور والمقال داخل التطبيق",
+    "openOriginal": true,
+    "maxArticles": 30,
+    "refreshMinutes": 15
   },
   "player": {
     "enabled": true,
@@ -407,7 +406,7 @@
   },
   "engagement": {
     "enabled": true,
-    "onboarding": false,
+    "onboarding": true,
     "myTeams": true,
     "matchReminders": true,
     "reminderMinutesBefore": 15,
@@ -420,20 +419,12 @@
     "whatsNew": true,
     "whatsNewTitle": "What's new in Moaad Live",
     "whatsNewItems": [
-      "Pinned Match on Home",
-      "Top scorers in League Hub",
-      "Live events timeline",
-      "Lineups & formations",
-      "Head-to-head history",
-      "Server health indicator",
+      "My Teams & personalized Home",
+      "Match reminders before kickoff",
       "Mini player & Continue Watching",
-      "Shareable match cards"
-    ],
-    "topScorers": true,
-    "lineups": true,
-    "eventsTimeline": true,
-    "headToHead": true,
-    "pinnedMatch": true,
-    "serverHealth": true
+      "League hubs with top scorers",
+      "Shareable match cards",
+      "Goal flash & dynamic Match Center backgrounds"
+    ]
   }
 }
