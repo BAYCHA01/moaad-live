@@ -194,10 +194,11 @@
     "gl": "MA",
     "ceid": "MA:ar",
     "title": "أخبار كرة القدم",
-    "subtitle": "آخر الأخبار الرياضية مع الصور والمقال داخل التطبيق",
-    "openOriginal": true,
-    "maxArticles": 30,
-    "refreshMinutes": 15
+    "subtitle": "أخبار حقيقية من Google News RSS مع صور المقالات",
+    "openOriginal": false,
+    "maxArticles": 24,
+    "refreshMinutes": 15,
+    "showOnlyWithImages": true
   },
   "player": {
     "enabled": true,
@@ -406,7 +407,7 @@
   },
   "engagement": {
     "enabled": true,
-    "onboarding": true,
+    "onboarding": false,
     "myTeams": true,
     "matchReminders": true,
     "reminderMinutesBefore": 15,
