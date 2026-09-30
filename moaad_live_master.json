@@ -1,5 +1,5 @@
 {
-  "configVersion": 5,
+  "configVersion": 7,
   "app": {
     "name": "Moaad Live",
     "tagline": "Football. Closer Than Ever.",
@@ -235,10 +235,22 @@
     "resizeModes": true
   },
   "social": {
-    "telegramEnabled": false,
+    "telegramEnabled": true,
     "telegramUrl": "",
-    "whatsappEnabled": false,
-    "whatsappUrl": ""
+    "whatsappEnabled": true,
+    "whatsappUrl": "",
+    "telegramPopupEnabled": true,
+    "telegramPopupShowOnce": true,
+    "telegramPopupTitle": "Join our Telegram channel",
+    "telegramPopupMessage": "Get match updates, news and important announcements directly on Telegram.",
+    "telegramJoinButton": "Join Channel",
+    "telegramLaterButton": "Later",
+    "whatsappPopupEnabled": true,
+    "whatsappPopupShowOnce": true,
+    "whatsappPopupTitle": "Join our WhatsApp channel",
+    "whatsappPopupMessage": "Get match updates, news and important announcements directly on WhatsApp.",
+    "whatsappJoinButton": "Join Channel",
+    "whatsappLaterButton": "Later"
   },
   "ui": {
     "forceTheme": "user",
