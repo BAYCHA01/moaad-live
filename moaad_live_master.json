@@ -1,5 +1,5 @@
 {
-  "configVersion": 7,
+  "configVersion": 8,
   "app": {
     "name": "Moaad Live",
     "tagline": "Football. Closer Than Ever.",
@@ -429,7 +429,7 @@
     "shareMatchCard": true,
     "goalFlash": true,
     "dynamicMatchBackground": true,
-    "whatsNew": true,
+    "whatsNew": false,
     "whatsNewTitle": "What's new in Moaad Live",
     "whatsNewItems": [
       "Pinned Match on Home",
