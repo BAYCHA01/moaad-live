@@ -1,5 +1,5 @@
 {
-  "configVersion": 9,
+  "configVersion": 10,
   "app": {
     "name": "Moaad Live",
     "tagline": "Football. Closer Than Ever.",
@@ -41,49 +41,7 @@
     "tomorrowLabel": "Tomorrow",
     "liveTitle": "Live Now",
     "otherTitle": "All Matches",
-    "matches": [
-      {
-        "id": 1,
-        "competition": "UEFA Champions League",
-        "home": "Real Madrid",
-        "away": "Manchester City",
-        "time": "20:00",
-        "status": "LIVE",
-        "homeScore": 1,
-        "awayScore": 1,
-        "minute": "67'",
-        "dayOffset": 0
-      },
-      {
-        "id": 2,
-        "competition": "Premier League",
-        "home": "Liverpool",
-        "away": "Arsenal",
-        "time": "18:30",
-        "status": "UPCOMING",
-        "dayOffset": 0
-      },
-      {
-        "id": 3,
-        "competition": "La Liga",
-        "home": "Barcelona",
-        "away": "Sevilla",
-        "time": "21:00",
-        "status": "UPCOMING",
-        "dayOffset": 1
-      },
-      {
-        "id": 4,
-        "competition": "Serie A",
-        "home": "Inter",
-        "away": "Milan",
-        "time": "17:00",
-        "status": "FINISHED",
-        "homeScore": 2,
-        "awayScore": 1,
-        "dayOffset": -1
-      }
-    ],
+    "matches": [],
     "topMatchesEnabled": true,
     "topMatchesTitle": "Top Matches",
     "topMatchesLimit": 5,
@@ -189,14 +147,18 @@
   },
   "news": {
     "enabled": true,
+    "query": "كرة القدم",
+    "hl": "ar",
+    "gl": "MA",
+    "ceid": "MA:ar",
     "title": "أخبار كرة القدم",
     "subtitle": "آخر أخبار كرة القدم داخل التطبيق",
     "openOriginal": false,
-    "showOnlyWithImages": true,
-    "maxArticles": 10,
+    "maxArticles": 18,
     "refreshMinutes": 60,
-    "newsApiUrl": "https://moaad-football-api.moaad.workers.dev/news",
-    "proxyBaseUrl": "https://moaad-football-api.moaad.workers.dev"
+    "showOnlyWithImages": false,
+    "proxyBaseUrl": "https://moaad-football-api.moaad.workers.dev",
+    "newsApiUrl": "https://moaad-football-api.moaad.workers.dev/news"
   },
   "player": {
     "enabled": true,
@@ -445,5 +407,54 @@
     "headToHead": true,
     "pinnedMatch": true,
     "serverHealth": true
+  },
+  "ads": {
+    "enabled": true,
+    "testMode": true,
+    "strategy": {
+      "primary": "admob",
+      "fallback": "levelplay",
+      "firstClickInterstitial": true,
+      "interstitialEveryClicks": 3,
+      "minSecondsBetweenInterstitials": 60,
+      "fallbackOnNoFill": true,
+      "fallbackOnLoadError": true,
+      "admobEmergencyOff": false,
+      "levelplayForce": false
+    },
+    "appOpen": {
+      "enabled": true,
+      "showOnColdStart": false,
+      "showOnResume": true,
+      "cooldownSeconds": 90
+    },
+    "native": {
+      "enabled": true,
+      "player": true,
+      "newsArticleTop": true,
+      "fallbackToLevelPlay": true
+    },
+    "admob": {
+      "enabled": true,
+      "appId": "ca-app-pub-3940256099942544~3347511713",
+      "interstitialId": "ca-app-pub-3940256099942544/1033173712",
+      "nativeId": "ca-app-pub-3940256099942544/2247696110",
+      "appOpenId": "ca-app-pub-3940256099942544/9257395921",
+      "bannerId": ""
+    },
+    "levelplay": {
+      "enabled": true,
+      "appKey": "",
+      "interstitialAdUnitId": "",
+      "interstitialPlacement": "DefaultInterstitial",
+      "nativePlacement": "DefaultNative"
+    },
+    "networks": {
+      "ironsource": true,
+      "meta": true,
+      "vungle": true,
+      "unityAds": true,
+      "yandex": true
+    }
   }
 }
