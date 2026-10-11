@@ -440,14 +440,16 @@
       "interstitialId": "ca-app-pub-3940256099942544/1033173712",
       "nativeId": "ca-app-pub-3940256099942544/2247696110",
       "appOpenId": "ca-app-pub-3940256099942544/9257395921",
-      "bannerId": ""
+      "bannerId": "ca-app-pub-3940256099942544/6300978111"
     },
     "levelplay": {
       "enabled": true,
       "appKey": "",
       "interstitialAdUnitId": "",
       "interstitialPlacement": "DefaultInterstitial",
-      "nativePlacement": "DefaultNative"
+      "nativePlacement": "DefaultNative",
+      "bannerAdUnitId": "",
+      "bannerPlacement": "DefaultBanner"
     },
     "networks": {
       "ironsource": true,
@@ -455,6 +457,16 @@
       "vungle": true,
       "unityAds": true,
       "yandex": true
+    },
+    "banner": {
+      "enabled": true,
+      "home": true,
+      "leagues": true,
+      "news": true,
+      "settings": false,
+      "player": false,
+      "adaptive": true,
+      "fallbackToLevelPlay": true
     }
   }
 }
