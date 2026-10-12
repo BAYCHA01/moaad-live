@@ -1,0 +1,477 @@
+{
+  "configVersion": 10,
+  "app": {
+    "name": "Moaad Live",
+    "tagline": "Football. Closer Than Ever.",
+    "maintenance": false,
+    "maintenanceTitle": "Maintenance",
+    "maintenanceMessage": "We are improving Moaad Live. Please try again soon.",
+    "forceUpdate": false,
+    "minVersionCode": 1,
+    "latestVersionName": "3.0",
+    "updateUrl": "https://play.google.com/store/apps/details?id=com.moaad.moaadlive"
+  },
+  "features": {
+    "home": true,
+    "leagues": true,
+    "news": true,
+    "favorites": false,
+    "settings": true,
+    "search": true,
+    "notifications": true,
+    "player": true,
+    "teamPages": true,
+    "h2h": true,
+    "lineups": true,
+    "diagnostics": true
+  },
+  "popup": {
+    "enabled": false,
+    "showOnce": true,
+    "title": "Welcome to Moaad Live",
+    "message": "Follow every match in one place.",
+    "button": "Continue"
+  },
+  "home": {
+    "showSearch": true,
+    "showNotifications": true,
+    "searchHint": "Search teams, players, leagues...",
+    "yesterdayLabel": "Yesterday",
+    "todayLabel": "Today",
+    "tomorrowLabel": "Tomorrow",
+    "liveTitle": "Live Now",
+    "otherTitle": "All Matches",
+    "matches": [],
+    "topMatchesEnabled": true,
+    "topMatchesTitle": "Top Matches",
+    "topMatchesLimit": 5,
+    "pullToRefresh": true,
+    "skeletonLoading": true
+  },
+  "leagues": {
+    "title": "Leagues",
+    "subtitle": "Explore football from around the world.",
+    "items": [
+      {
+        "name": "UEFA Champions League",
+        "country": "Europe",
+        "emoji": "★",
+        "enabled": true,
+        "apiId": 2
+      },
+      {
+        "name": "Premier League",
+        "country": "England",
+        "emoji": "🏴",
+        "enabled": true,
+        "apiId": 39
+      },
+      {
+        "name": "La Liga",
+        "country": "Spain",
+        "emoji": "🇪🇸",
+        "enabled": true,
+        "apiId": 140
+      },
+      {
+        "name": "Serie A",
+        "country": "Italy",
+        "emoji": "🇮🇹",
+        "enabled": true,
+        "apiId": 135
+      },
+      {
+        "name": "Ligue 1",
+        "country": "France",
+        "emoji": "🇫🇷",
+        "enabled": true,
+        "apiId": 61
+      },
+      {
+        "name": "Bundesliga",
+        "country": "Germany",
+        "emoji": "🇩🇪",
+        "enabled": true,
+        "apiId": 78
+      },
+      {
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "emoji": "🇳🇱",
+        "enabled": true,
+        "apiId": 88
+      },
+      {
+        "name": "Saudi Pro League",
+        "country": "Saudi Arabia",
+        "emoji": "🇸🇦",
+        "enabled": true,
+        "apiId": 307
+      },
+      {
+        "name": "Botola Pro",
+        "country": "Morocco",
+        "emoji": "🇲🇦",
+        "enabled": true,
+        "apiId": 200
+      },
+      {
+        "name": "UEFA Europa League",
+        "country": "Europe",
+        "emoji": "🏆",
+        "enabled": true,
+        "apiId": 3
+      },
+      {
+        "name": "UEFA Conference League",
+        "country": "Europe",
+        "emoji": "🏆",
+        "enabled": true,
+        "apiId": 848
+      },
+      {
+        "name": "CAF Champions League",
+        "country": "Africa",
+        "emoji": "🌍",
+        "enabled": true,
+        "apiId": 12
+      },
+      {
+        "name": "CAF Confederation Cup",
+        "country": "Africa",
+        "emoji": "🌍",
+        "enabled": true,
+        "apiId": 20
+      }
+    ]
+  },
+  "news": {
+    "enabled": true,
+    "query": "كرة القدم",
+    "hl": "ar",
+    "gl": "MA",
+    "ceid": "MA:ar",
+    "title": "أخبار كرة القدم",
+    "subtitle": "آخر أخبار كرة القدم داخل التطبيق",
+    "openOriginal": false,
+    "maxArticles": 18,
+    "refreshMinutes": 60,
+    "showOnlyWithImages": false,
+    "proxyBaseUrl": "https://moaad-football-api.moaad.workers.dev",
+    "newsApiUrl": "https://moaad-football-api.moaad.workers.dev/news"
+  },
+  "player": {
+    "enabled": true,
+    "title": "Moaad Live",
+    "subtitle": "Choose a server",
+    "servers": [
+      {
+        "name": "Server 1",
+        "url": "https://raw.githubusercontent.com/ringy9/AymaneTV/refs/heads/main/beim.mp4",
+        "type": "mp4",
+        "enabled": true
+      },
+      {
+        "name": "Server 2",
+        "url": "https://raw.githubusercontent.com/ringy9/AymaneTV/refs/heads/main/beim.mp4",
+        "type": "mp4",
+        "enabled": true
+      },
+      {
+        "name": "Server 3",
+        "url": "https://raw.githubusercontent.com/ringy9/AymaneTV/refs/heads/main/beim.mp4",
+        "type": "mp4",
+        "enabled": true
+      }
+    ],
+    "matchServers": [],
+    "mode": "internal",
+    "externalPackage": "com.moaad.player",
+    "rateBannerImage": "",
+    "rateUrl": "https://play.google.com/store/apps/details?id=com.moaad.moaadlive",
+    "showServerSelector": true,
+    "brightnessGesture": true,
+    "volumeGesture": true,
+    "resizeModes": true
+  },
+  "social": {
+    "telegramEnabled": true,
+    "telegramUrl": "",
+    "whatsappEnabled": true,
+    "whatsappUrl": "",
+    "telegramPopupEnabled": true,
+    "telegramPopupShowOnce": true,
+    "telegramPopupTitle": "Join our Telegram channel",
+    "telegramPopupMessage": "Get match updates, news and important announcements directly on Telegram.",
+    "telegramJoinButton": "Join Channel",
+    "telegramLaterButton": "Later",
+    "whatsappPopupEnabled": true,
+    "whatsappPopupShowOnce": true,
+    "whatsappPopupTitle": "Join our WhatsApp channel",
+    "whatsappPopupMessage": "Get match updates, news and important announcements directly on WhatsApp.",
+    "whatsappJoinButton": "Join Channel",
+    "whatsappLaterButton": "Later"
+  },
+  "ui": {
+    "forceTheme": "user",
+    "forceLanguage": "user",
+    "primaryColor": "#F21F32",
+    "splashDurationMs": 3200,
+    "ratePromptEnabled": true,
+    "ratePromptAfterLaunches": 5,
+    "animationsEnabled": true
+  },
+  "favorites": {
+    "title": "Favorite Teams",
+    "teams": [
+      {
+        "id": "real_madrid",
+        "name": "Real Madrid",
+        "league": "Spain",
+        "emoji": "⚪",
+        "enabled": true
+      },
+      {
+        "id": "barcelona",
+        "name": "FC Barcelona",
+        "league": "Spain",
+        "emoji": "🔵",
+        "enabled": true
+      },
+      {
+        "id": "man_city",
+        "name": "Manchester City",
+        "league": "England",
+        "emoji": "🔷",
+        "enabled": true
+      },
+      {
+        "id": "liverpool",
+        "name": "Liverpool",
+        "league": "England",
+        "emoji": "🔴",
+        "enabled": true
+      },
+      {
+        "id": "arsenal",
+        "name": "Arsenal",
+        "league": "England",
+        "emoji": "🔴",
+        "enabled": true
+      },
+      {
+        "id": "bayern",
+        "name": "Bayern Munich",
+        "league": "Germany",
+        "emoji": "🔴",
+        "enabled": true
+      },
+      {
+        "id": "psg",
+        "name": "Paris Saint-Germain",
+        "league": "France",
+        "emoji": "🔵",
+        "enabled": true
+      },
+      {
+        "id": "inter",
+        "name": "Inter Milan",
+        "league": "Italy",
+        "emoji": "🔵",
+        "enabled": true
+      },
+      {
+        "id": "al_hilal",
+        "name": "Al Hilal",
+        "league": "Saudi Arabia",
+        "emoji": "🔵",
+        "enabled": true
+      },
+      {
+        "id": "wydad",
+        "name": "Wydad AC",
+        "league": "Morocco",
+        "emoji": "🔴",
+        "enabled": true
+      },
+      {
+        "id": "raja",
+        "name": "Raja CA",
+        "league": "Morocco",
+        "emoji": "🟢",
+        "enabled": true
+      }
+    ]
+  },
+  "api": {
+    "enabled": true,
+    "baseUrl": "https://moaad-football-api.moaad.workers.dev",
+    "timezone": "Africa/Casablanca",
+    "refreshMinutes": 5,
+    "season": 2026,
+    "priorityLeagueIds": [
+      2,
+      39,
+      140,
+      135,
+      61,
+      78,
+      88,
+      307,
+      200,
+      3,
+      848,
+      12,
+      20,
+      1,
+      4,
+      9,
+      6
+    ],
+    "showTeamLogos": true,
+    "priorityTeamNames": [
+      "Real Madrid",
+      "Barcelona",
+      "Atletico Madrid",
+      "Manchester City",
+      "Liverpool",
+      "Arsenal",
+      "Manchester United",
+      "Chelsea",
+      "Tottenham",
+      "Bayern Munich",
+      "Borussia Dortmund",
+      "Paris Saint Germain",
+      "Inter",
+      "AC Milan",
+      "Juventus",
+      "Napoli",
+      "Ajax",
+      "PSV Eindhoven",
+      "Benfica",
+      "FC Porto",
+      "Al Hilal",
+      "Al Nassr",
+      "Al Ittihad",
+      "Al Ahli",
+      "Wydad AC",
+      "Raja Casablanca",
+      "FAR Rabat",
+      "Morocco",
+      "Argentina",
+      "Brazil",
+      "France",
+      "Spain",
+      "Portugal",
+      "England",
+      "Germany",
+      "Netherlands",
+      "Italy"
+    ]
+  },
+  "notifications": {
+    "enabled": true,
+    "oneSignalAppId": "",
+    "goals": true,
+    "kickoff": true,
+    "halftime": true,
+    "fulltime": true
+  },
+  "engagement": {
+    "enabled": true,
+    "onboarding": false,
+    "myTeams": true,
+    "matchReminders": true,
+    "reminderMinutesBefore": 15,
+    "liveRibbon": true,
+    "continueWatching": true,
+    "miniPlayer": true,
+    "shareMatchCard": true,
+    "goalFlash": true,
+    "dynamicMatchBackground": true,
+    "whatsNew": false,
+    "whatsNewTitle": "What's new in Moaad Live",
+    "whatsNewItems": [
+      "Pinned Match on Home",
+      "Top scorers in League Hub",
+      "Live events timeline",
+      "Lineups & formations",
+      "Head-to-head history",
+      "Server health indicator",
+      "Mini player & Continue Watching",
+      "Shareable match cards"
+    ],
+    "topScorers": true,
+    "lineups": true,
+    "eventsTimeline": true,
+    "headToHead": true,
+    "pinnedMatch": true,
+    "serverHealth": true
+  },
+  "ads": {
+    "enabled": true,
+    "testMode": true,
+    "strategy": {
+      "primary": "admob",
+      "fallback": "levelplay",
+      "firstClickInterstitial": true,
+      "interstitialEveryClicks": 3,
+      "minSecondsBetweenInterstitials": 60,
+      "fallbackOnNoFill": true,
+      "fallbackOnLoadError": true,
+      "admobEmergencyOff": false,
+      "levelplayForce": false
+    },
+    "appOpen": {
+      "enabled": true,
+      "showOnColdStart": false,
+      "showOnResume": true,
+      "cooldownSeconds": 90
+    },
+    "native": {
+      "enabled": true,
+      "player": true,
+      "newsArticleTop": true,
+      "matchCenter": true,
+      "fallbackToLevelPlay": true,
+      "newsTop": true,
+      "matchesFeed": true,
+      "matchesEvery": 6
+    },
+    "admob": {
+      "enabled": true,
+      "appId": "ca-app-pub-3940256099942544~3347511713",
+      "interstitialId": "ca-app-pub-3940256099942544/1033173712",
+      "nativeId": "ca-app-pub-3940256099942544/2247696110",
+      "appOpenId": "ca-app-pub-3940256099942544/9257395921",
+      "bannerId": "ca-app-pub-3940256099942544/6300978111"
+    },
+    "levelplay": {
+      "enabled": true,
+      "appKey": "",
+      "interstitialAdUnitId": "",
+      "interstitialPlacement": "DefaultInterstitial",
+      "nativePlacement": "DefaultNative",
+      "bannerAdUnitId": "",
+      "bannerPlacement": "DefaultBanner"
+    },
+    "networks": {
+      "ironsource": true,
+      "meta": true,
+      "vungle": true,
+      "unityAds": true,
+      "yandex": true
+    },
+    "banner": {
+      "enabled": true,
+      "home": true,
+      "leagues": true,
+      "news": true,
+      "settings": false,
+      "player": false,
+      "matchCenter": true,
+      "adaptive": true,
+      "fallbackToLevelPlay": true
+    }
+  }
+}
