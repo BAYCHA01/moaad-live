@@ -409,7 +409,7 @@
     "serverHealth": true
   },
   "ads": {
-    "enabled": true,
+    "enabled": false,
     "testMode": true,
     "strategy": {
       "primary": "admob",
