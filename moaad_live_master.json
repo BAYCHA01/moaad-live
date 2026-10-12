@@ -414,7 +414,7 @@
     "strategy": {
       "primary": "admob",
       "fallback": "levelplay",
-      "firstClickInterstitial": false,
+      "firstClickInterstitial": true,
       "interstitialEveryClicks": 3,
       "minSecondsBetweenInterstitials": 60,
       "fallbackOnNoFill": true,
@@ -433,7 +433,10 @@
       "player": true,
       "newsArticleTop": true,
       "matchCenter": true,
-      "fallbackToLevelPlay": true
+      "fallbackToLevelPlay": true,
+      "newsTop": true,
+      "matchesFeed": true,
+      "matchesEvery": 6
     },
     "admob": {
       "enabled": true,
