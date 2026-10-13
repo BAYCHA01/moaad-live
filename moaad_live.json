@@ -1,11 +1,11 @@
 {
   "configVersion": 10,
   "app": {
-    "name": "Moaad Koora Live",
+    "name": "Moaad Live كوورة لايف",
     "tagline": "Football. Closer Than Ever.",
     "maintenance": false,
     "maintenanceTitle": "Maintenance",
-    "maintenanceMessage": "We are improving Moaad Koora Live. Please try again soon.",
+    "maintenanceMessage": "We are improving Moaad Live كوورة لايف. Please try again soon.",
     "forceUpdate": false,
     "minVersionCode": 1,
     "latestVersionName": "3.0",
@@ -28,7 +28,7 @@
   "popup": {
     "enabled": false,
     "showOnce": true,
-    "title": "Welcome to Moaad Koora Live",
+    "title": "Welcome to Moaad Live كوورة لايف",
     "message": "Follow every match in one place.",
     "button": "Continue"
   },
@@ -162,7 +162,7 @@
   },
   "player": {
     "enabled": true,
-    "title": "Moaad Koora Live",
+    "title": "Moaad Live كوورة لايف",
     "subtitle": "Choose a server",
     "servers": [
       {
@@ -390,7 +390,7 @@
     "goalFlash": true,
     "dynamicMatchBackground": true,
     "whatsNew": false,
-    "whatsNewTitle": "What's new in Moaad Koora Live",
+    "whatsNewTitle": "What's new in Moaad Live كوورة لايف",
     "whatsNewItems": [
       "Pinned Match on Home",
       "Top scorers in League Hub",
