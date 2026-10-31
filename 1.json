@@ -1,7 +1,7 @@
 {
   "app": {
-    "name": "YSN TV",
-    "name_ar": "YSN TV",
+    "name": "moaad live",
+    "name_ar": "moaad live",
     "logo": "https://i.imgur.com/YbF6qSw.png",
     "slogan": "Football Scores, Statistics & News",
     "onesignal_app_id": "6bd309ba-4295-4546-99d9-f0441e9ff652"
@@ -138,19 +138,19 @@
     "default_match_image": "https://github.com/ringy9/pic/blob/main/thumbnailURL.png?raw=true"
   },
   "fixture_streams": [
-  {
-    "fixture_id": 1552801,
-    "match_label": "لوهافر ضد باريس سان جيرمان",
-    "thumbnail": "https://github.com/ringy9/pic/blob/main/thumbnailURL.png?raw=true",
-    "servers": [
-      {
-        "name": "السيرفر 1",
-        "url": "https://raw.githubusercontent.com/ringy9/AymaneTV/refs/heads/main/beim.mp4",
-        "type": "mp4"
-      }
-    ]
-  }
-],
+    {
+      "fixture_id": 1552801,
+      "match_label": "لوهافر ضد باريس سان جيرمان",
+      "thumbnail": "https://github.com/ringy9/pic/blob/main/thumbnailURL.png?raw=true",
+      "servers": [
+        {
+          "name": "السيرفر 1",
+          "url": "https://raw.githubusercontent.com/ringy9/AymaneTV/refs/heads/main/beim.mp4",
+          "type": "mp4"
+        }
+      ]
+    }
+  ],
   "ads": [
     {
       "id": "ad1",
@@ -181,7 +181,7 @@
     "icon": "",
     "update_button_text": "تحديث الآن",
     "later_button_text": "لاحقاً",
-    "update_url": "https://play.google.com/store/apps/details?id=com.lukyvero.yasstv",
+    "update_url": "https://play.google.com/store/apps/details?id=com.moaad.live",
     "show_every_launch": false
   },
   "exit_dialog": {
@@ -208,7 +208,6 @@
       "app_open_id": "ca-app-pub-3940256099942544/9257395921",
       "rewarded_id": ""
     },
-
     "max": {
       "enabled": false,
       "sdk_key": "YOUR_MAX_SDK_KEY",
@@ -406,20 +405,20 @@
     "button_url": "https://t.me/Ilyas_tv_live",
     "dont_show_again_text": "عدم الإظهار مرة أخرى"
   },
-    "support_card": {
+  "support_card": {
     "enabled": true,
     "title": "شكراً لدعمك",
     "message": "لدعم التطبيق، شاركه مع 5 من أصدقائك أو قيّمه ب5 نجوم",
     "rate_button": "تقييم التطبيق",
     "share_button": "مشاركة التطبيق",
-    "store_url": "https://play.google.com/store/apps/details?id=com.haydat.sa3adalive",
+    "store_url": "https://play.google.com/store/apps/details?id=com.moaad.live",
     "shine_enabled": true,
     "background_image_url": "https://github.com/ringy9/pic/blob/main/rateusapp.png?raw=true",
     "pulse_enabled": true,
     "pulse_scale": 1.07,
     "pulse_duration_ms": 3400
   },
-    "live_notifications": {
+  "live_notifications": {
     "enabled": true,
     "teams": [
       "Real Madrid",
