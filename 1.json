@@ -8,7 +8,7 @@
   },
   "football_api": {
     "enabled": true,
-    "base_url": "https://ysntv-football-proxy.hamza-ysntv-2026.workers.dev",
+    "base_url": "https://moaad-football-api.moaad.workers.dev",
     "timezone": "Africa/Casablanca",
     "season": 2026,
     "league_ids": [
