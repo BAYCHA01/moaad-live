@@ -196,7 +196,7 @@
     "native_ad_fallback_network": "admob"
   },
   "ads_config": {
-    "enabled": true,
+    "enabled": false,
     "default_network": "admob",
     "fallback_network": "admob",
     "admob": {
