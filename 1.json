@@ -201,12 +201,12 @@
     "fallback_network": "admob",
     "admob": {
       "enabled": true,
-      "app_id": "ca-app-pub-3940256099942544~3347511713",
-      "banner_id": "ca-app-pub-3940256099942544/6300978111",
-      "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
-      "native_id": "ca-app-pub-3940256099942544/2247696110",
-      "app_open_id": "ca-app-pub-3940256099942544/9257395921",
-      "rewarded_id": ""
+      "app_id": "ca-app-pub-8091301815786143~4457366049",
+      "banner_id": "ca-app-pub-8091301815786143/5085098180",
+      "interstitial_id": "ca-app-pub-8091301815786143/6149721660",
+      "native_id": "ca-app-pub-8091301815786143/6255156739",
+      "app_open_id": "ca-app-pub-8091301815786143/2458934848",
+      "rewarded_id": "ca-app-pub-8091301815786143/7568238403"
     },
     "max": {
       "enabled": false,
