@@ -200,7 +200,7 @@
     "default_network": "admob",
     "fallback_network": "admob",
     "admob": {
-      "enabled": true,
+      "enabled": false,
       "app_id": "ca-app-pub-8091301815786143~4087220015",
       "banner_id": "ca-app-pub-8091301815786143/7149156769",
       "interstitial_id": "ca-app-pub-8091301815786143/8600025143",
