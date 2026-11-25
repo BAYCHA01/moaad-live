@@ -137,7 +137,8 @@
     "allow_default_stream_for_all": true,
     "default_match_image": "https://github.com/ringy9/pic/blob/main/thumbnailURL.png?raw=true"
   },
-   {
+    "fixture_streams": [
+     {
     "fixture_id": 1635718,
     "match_label": "صباح ضد برشلونة",
     "thumbnail": "https://github.com/ringy9/pic/blob/main/thumbnailURL.png?raw=true",
