@@ -164,7 +164,7 @@
   ],
   "news": [],
   "update": {
-    "enabled": false,
+    "enabled": true,
     "force_update": false,
     "latest_version_code": 24,
     "latest_version_name": "3.10.1",
