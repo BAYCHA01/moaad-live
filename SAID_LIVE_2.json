@@ -209,13 +209,13 @@
     },
     "ironsource": {
       "enabled": true,
-      "app_key": "27a27131d",
+      "app_key": "29f87b0ad",
       "banner_enabled": true,
       "interstitial_enabled": true,
       "rewarded_enabled": false,
-      "banner_ad_unit_id": "xez076xjj7pyzlek",
-      "interstitial_ad_unit_id": "17xhrw3tdj7txq6d",
-      "rewarded_ad_unit_id": "bwyvuijrhbfq11a7"
+      "banner_ad_unit_id": "kwxx6h3rwh0g2kc1",
+      "interstitial_ad_unit_id": "mbv9mxf42da027ic",
+      "rewarded_ad_unit_id": "lyvfg26uqmul9mp5"
     },
     "meta": {
       "enabled": true,
