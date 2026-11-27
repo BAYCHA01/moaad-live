@@ -274,19 +274,19 @@
       "enabled": true,
       "ready": true,
       "managed_by": "levelplay",
-      "app_id": "",
-      "banner_id": "",
-      "interstitial_id": "",
-      "rewarded_id": ""
+      "app_id": "6af4d78142b1e295af39ef62",
+      "banner_id": "BANNER-1139905",
+      "interstitial_id": "DEFAULT-6571848",
+      "rewarded_id": "REWARDED-1382064"
     },
     "unity_ads": {
       "enabled": true,
       "ready": true,
       "managed_by": "levelplay",
-      "game_id_android": "6155984",
-      "banner_id": "Banner_Android",
-      "interstitial_id": "Interstitial_Android",
-      "rewarded_id": "Rewarded_Android"
+      "game_id_android": "800432832",
+      "banner_id": "BP_Banner_Android",
+      "interstitial_id": "BP_Interstitial_Android",
+      "rewarded_id": "BP_Rewarded_Android"
     },
     "placements": {
       "banner": {
